@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="application" value="url"/>
+  <test name="facebook(failed)">
+    <parameter name="application" value="furl"/>
+    <classes>
+      <class name="com.testcases.wallethub.TC01_ReviewSubmisstion">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testcases.wallethub.TC01_ReviewSubmisstion -->
+      <class name="com.testcases.facebook.TC01_NewPost">
+        <methods>
+          <include name="createNewPost"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testcases.facebook.TC01_NewPost -->
+    </classes>
+  </test> <!-- facebook(failed) -->
+  <test name="wallethub(failed)">
+    <parameter name="application" value="url"/>
+    <classes>
+      <class name="com.testcases.wallethub.TC01_ReviewSubmisstion">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="submitReview"/>
+        </methods>
+      </class> <!-- com.testcases.wallethub.TC01_ReviewSubmisstion -->
+      <class name="com.testcases.facebook.TC01_NewPost">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.testcases.facebook.TC01_NewPost -->
+    </classes>
+  </test> <!-- wallethub(failed) -->
+</suite> <!-- Failed suite [Suite] -->

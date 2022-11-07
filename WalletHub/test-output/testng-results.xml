@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42556" started-at="2022-06-04T21:19:23Z" finished-at="2022-06-04T21:20:06Z">
+    <groups>
+    </groups>
+    <test name="facebook" duration-ms="22275" started-at="2022-06-04T21:19:23Z" finished-at="2022-06-04T21:19:45Z">
+      <class name="com.testcases.facebook.TC01_NewPost">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testcases.facebook.TC01_NewPost@6302bbb1]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-06-05T02:49:23Z" finished-at="2022-06-05T02:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.testcases.facebook.TC01_NewPost@6302bbb1]" name="beforeMethod" is-config="true" duration-ms="5540" started-at="2022-06-05T02:49:23Z" finished-at="2022-06-05T02:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testcases.facebook.TC01_NewPost.createNewPost()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[furl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createNewPost()[pri:0, instance:com.testcases.facebook.TC01_NewPost@6302bbb1]" name="createNewPost" duration-ms="14727" started-at="2022-06-05T02:49:29Z" finished-at="2022-06-05T02:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPost -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.facebook.TC01_NewPost@6302bbb1]" name="afterMethod" is-config="true" duration-ms="2000" started-at="2022-06-05T02:49:43Z" finished-at="2022-06-05T02:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testcases.facebook.TC01_NewPost -->
+    </test> <!-- facebook -->
+    <test name="wallethub" duration-ms="20270" started-at="2022-06-04T21:19:45Z" finished-at="2022-06-04T21:20:06Z">
+      <class name="com.testcases.wallethub.TC01_ReviewSubmisstion">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testcases.wallethub.TC01_ReviewSubmisstion@515c6049]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2022-06-05T02:49:23Z" finished-at="2022-06-05T02:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testcases.wallethub.TC01_ReviewSubmisstion@515c6049]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-06-05T02:49:45Z" finished-at="2022-06-05T02:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.testcases.wallethub.TC01_ReviewSubmisstion@515c6049]" name="beforeMethod" is-config="true" duration-ms="5449" started-at="2022-06-05T02:49:45Z" finished-at="2022-06-05T02:49:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testcases.wallethub.TC01_ReviewSubmisstion.submitReview()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="submitReview()[pri:0, instance:com.testcases.wallethub.TC01_ReviewSubmisstion@515c6049]" name="submitReview" duration-ms="13886" started-at="2022-06-05T02:49:51Z" finished-at="2022-06-05T02:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitReview -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.wallethub.TC01_ReviewSubmisstion@515c6049]" name="afterMethod" is-config="true" duration-ms="928" started-at="2022-06-05T02:50:05Z" finished-at="2022-06-05T02:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testcases.wallethub.TC01_ReviewSubmisstion@515c6049]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-06-05T02:50:06Z" finished-at="2022-06-05T02:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testcases.wallethub.TC01_ReviewSubmisstion -->
+    </test> <!-- wallethub -->
+  </suite> <!-- Suite -->
+</testng-results>

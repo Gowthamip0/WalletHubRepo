@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="facebook">
+		<parameter name="application" value="furl" />
+		<classes>
+			<class name="com.testcases.facebook.TC01_NewPost" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="wallethub">
+		<parameter name="application" value="url" />
+		<classes>
+			<class name="com.testcases.wallethub.TC01_ReviewSubmisstion" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

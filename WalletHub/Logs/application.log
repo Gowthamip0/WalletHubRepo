@@ -1,0 +1,43 @@
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:12.438 BaseClass:75 - chrome launched.
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:12.475 BaseClass:76 - https://www.facebook.com/ opened.
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:12.690 BaseClass:44 - LoginPage is successfully launched
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:12.878 BaseClass:38 - User entered qaxperts2021@gmail.com into User name
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:13.035 BaseClass:38 - User entered Supreeth@2014 into Password
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:13.153 BaseClass:38 - User clicked on Login
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:16.951 BaseClass:44 - Successfully loggedin!!!!!!!!!!!!
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:17.556 BaseClass:38 - User clicked on Post
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:18.422 BaseClass:38 - User entered Hi there, feeling exited into New post
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:18.629 BaseClass:38 - User clicked on Post
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:48:22.979 BaseClass:44 - Successfully posted!!!!!!!!!!
+[${ctx:ROUTINGKEYLOG} ERROR] 2022-06-05 02:48:24.409 BaseClass:58 - User unable click on element!!! element click intercepted: Element <div aria-label="Your profile" class="oajrlxb2 qu0x051f esr5mh6w e9989ue4 r7d6kgcz nhd2j8a9 p7hjln8o kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x i1ao9s8h esuyzwwr f1sip0of abiwlrkh p8dawk7l lzcic4wl bp9cbjyn s45kfl79 emlxlaya bkmhp75w spb7xbtv rt8b4zig n8ej3o3l agehan2d sk4xxmp2 rq0escxv j83agx80 taijpn5t jb3vyjys rz4wbd8a qt6c0cv9 a8nywdso l9j0dhe7 qypqp5cg q676j6op tdjehn4e" role="button" tabindex="0">...</div> is not clickable at point (1547, 28). Other element would receive the click: <div class="__fb-light-mode gs1a9yip rq0escxv j83agx80 cbu4d94t taijpn5t kb5gq1qc h3gjbzrl">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'NAGAPRAVEENKUMA', ip: '172.25.64.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c817f1674c25a49a083a7886091a4424, clickElement {id=88cbb2ad-e159-49e1-96a5-38489f01cb03}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\AKSHAY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62197/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c817f1674c25a49a083a7886091a4424)] -> xpath: //div[@aria-label='Your profile']]
+Session ID: c817f1674c25a49a083a7886091a4424
+[${ctx:ROUTINGKEYLOG} ERROR] 2022-06-05 02:49:04.836 BaseClass:58 - User unable click on element!!! Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[text()='Log Out']' (tried for 10 second(s) with 500 milliseconds interval)
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:29.164 BaseClass:75 - chrome launched.
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:29.198 BaseClass:76 - https://www.facebook.com/ opened.
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:29.384 BaseClass:44 - LoginPage is successfully launched
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:29.571 BaseClass:38 - User entered qaxperts2021@gmail.com into User name
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:29.737 BaseClass:38 - User entered Supreeth@2014 into Password
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:29.860 BaseClass:38 - User clicked on Login
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:34.201 BaseClass:44 - Successfully loggedin!!!!!!!!!!!!
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:34.576 BaseClass:38 - User clicked on Post
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:35.552 BaseClass:38 - User entered Hi there, feeling exited into New post
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:35.729 BaseClass:38 - User clicked on Post
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:41.631 BaseClass:44 - Successfully posted!!!!!!!!!!
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:41.823 BaseClass:38 - User clicked on Logout Menu
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:43.755 BaseClass:38 - User clicked on Logout
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:43.925 BaseClass:44 - LoginPage is successfully launched
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:51.390 BaseClass:75 - chrome launched.
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:51.391 BaseClass:76 - https://wallethub.com/profile/test-insurance-company-13732055i opened.
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:49:51.563 BaseClass:44 - Test Insurance Company page is successfully launched
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:50:00.820 BaseClass:44 - User clicks on 4 star rating!!!!!!!!!!!!!!!!!
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:50:00.910 BaseClass:38 - User clicked on 4 star rating
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:50:01.262 BaseClass:38 - User clicked on Group insurance menu
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:50:05.155 BaseClass:38 - User entered This is automated script, This is automated script, This is automated script, This is automated script, This is automated script.. into Review
+[${ctx:ROUTINGKEYLOG} INFO ] 2022-06-05 02:50:05.278 BaseClass:38 - User clicked on Submit
